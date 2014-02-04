@@ -6,4 +6,4 @@ test:
   secret_token: "secret"
 production:
   server: "http://example.com/faye"
-  secret_token: "f0ebed76c746743795b78905a6ca243c00f6702be622a51854dc4513b60d515e"
+  secret_token: "6a98e0e501ad2a13885aeacfebb8268d2e0059bf07e13ac7de5d91d1f384ce06"
