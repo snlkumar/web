@@ -4,6 +4,10 @@ development:
 test:
   server: "http://localhost:9292/faye"
   secret_token: "secret"
+# production:
+  # server: " http://sunil-server.herokuapp.com"
+  # secret_token: "6a98e0e501ad2a13885aeacfebb8268d2e0059bf07e13ac7de5d91d1f384ce06" 
 production:
-  server: " http://sunil-server.herokuapp.com"
+  server: "http://sunil-server.herokuapp.com/faye"
   secret_token: "6a98e0e501ad2a13885aeacfebb8268d2e0059bf07e13ac7de5d91d1f384ce06"
+  signature_expiration: 86400 # one day
